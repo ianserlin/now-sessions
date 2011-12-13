@@ -1,10 +1,13 @@
 NowJS Connect HTTP Session Injection
 --------------------------------------
 
+NOTE: requires now-middleware (https://github.com/ianserlin/now-middleware)
+
 To enable:
 
 <code>
 var nowjs = require('now');
+require('now-middleware')(nowjs)
 require('now-sessions')(nowjs);
 </code>
 
