@@ -5,11 +5,11 @@ NOTE: requires now-middleware (https://github.com/ianserlin/now-middleware)
 
 To enable:
 
-<code>
+<pre><code>
 var nowjs = require('now');
 require('now-middleware')(nowjs)
 require('now-sessions')(nowjs);
-</code>
+</code></pre>
 
 
 To activate, when you're ready:
